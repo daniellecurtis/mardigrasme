@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Parade:</strong>
+  <%= @rider.parade %>
+</p>
+
+<p>
+  <strong>Float:</strong>
+  <%= @rider.float %>
+</p>
+
+<p>
+  <strong>Side:</strong>
+  <%= @rider.side %>
+</p>
+
+<p>
+  <strong>Level:</strong>
+  <%= @rider.level %>
+</p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @rider.position %>
+</p>
+
+<p>
+  <strong>Userid:</strong>
+  <%= @rider.userid %>
+</p>
+
+<%= link_to 'Edit', edit_rider_path(@rider) %> |
+<%= link_to 'Back', riders_path %>

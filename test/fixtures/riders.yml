@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  parade: MyString
+  float: MyString
+  side: MyString
+  level: MyString
+  position: 1
+  userid: 1
+
+two:
+  parade: MyString
+  float: MyString
+  side: MyString
+  level: MyString
+  position: 1
+  userid: 1
