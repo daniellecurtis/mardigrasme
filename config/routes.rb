@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get "whereyat" => "map#where"
+  get "riderprofile" => "riders#index"
+
   resources :riders
   devise_for :users
 
